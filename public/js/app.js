@@ -14,16 +14,16 @@ angular.module('learnNg')
         .when('/', {
           templateUrl: 'html/views/home.html'
         })
-        when('/about',{
+        .when('/about',{
           templateUrl: 'html/views/home.html'
         })
-        when('/contact',{
+        .when('/contact',{
           templateUrl: 'html/views/home.html'
         })
-        when('/post',{
+        .when('/post',{
           templateUrl: 'html/views/home.html'
         })
         .otherwise({
           redirectTo: '/'
-        })
+        });
       });
